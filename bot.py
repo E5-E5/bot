@@ -5,7 +5,7 @@ from data.players import Player
 import os
 import requests
 
-TOKEN = "ODMxOTA0MjE2NDg1MTk5ODky.YHcBLQ.AKORvfWyCYteQbz0S15wdmNi4uw"
+TOKEN = "ODMxOTA0MjE2NDg1MTk5ODky.YHcBLQ.jLCBwMIdSTHdfogU4wgmd4hJ7ag"
 
 
 class Tic_Tac_Toe(commands.Cog):
