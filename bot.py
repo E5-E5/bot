@@ -4,9 +4,7 @@ from data import db_session, players
 from data.players import Player
 import os
 import requests
-
-TOKEN = "ODMxOTA0MjE2NDg1MTk5ODky.YHcBLQ.jLCBwMIdSTHdfogU4wgmd4hJ7ag"
-
+import os
 
 class Tic_Tac_Toe(commands.Cog):
 
@@ -224,4 +222,5 @@ class Tic_Tac_Toe(commands.Cog):
 
 bot = commands.Bot(command_prefix='!')
 bot.add_cog(Tic_Tac_Toe(bot))
+TOKEN = os.environ.get('BOT_TOKEN')
 bot.run(TOKEN)
